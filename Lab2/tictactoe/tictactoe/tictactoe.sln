@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tictactoe", "tictactoe\tictactoe.csproj", "{AA94A7F9-F836-4FBC-BC66-B4F82E5D70DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA94A7F9-F836-4FBC-BC66-B4F82E5D70DF}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{AA94A7F9-F836-4FBC-BC66-B4F82E5D70DF}.Debug|iPhone.Build.0 = Debug|iPhone
+		{AA94A7F9-F836-4FBC-BC66-B4F82E5D70DF}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{AA94A7F9-F836-4FBC-BC66-B4F82E5D70DF}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{AA94A7F9-F836-4FBC-BC66-B4F82E5D70DF}.Release|iPhone.ActiveCfg = Release|iPhone
+		{AA94A7F9-F836-4FBC-BC66-B4F82E5D70DF}.Release|iPhone.Build.0 = Release|iPhone
+		{AA94A7F9-F836-4FBC-BC66-B4F82E5D70DF}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{AA94A7F9-F836-4FBC-BC66-B4F82E5D70DF}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal

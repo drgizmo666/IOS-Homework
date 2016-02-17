@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="tictactoe/tictactoe.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="tictactoe/ViewController.cs">
+    <Files>
+      <File FileName="tictactoe/tictactoe.cs" Line="1" Column="1" />
+      <File FileName="tictactoe/ViewController.cs" Line="171" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
