@@ -48,7 +48,7 @@
                                     <constraint id="200" firstItem="102" firstAttribute="width" constant="50"/>
                                 </constraints>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" id="103" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" restorationIdentifier="3">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" id="103" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" restorationIdentifier="3" misplaced="YES">
                                 <rect key="frame" x="197" y="128" width="50" height="50"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -96,7 +96,7 @@
                                     <constraint id="198" firstItem="107" firstAttribute="width" constant="50"/>
                                 </constraints>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" id="108" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" restorationIdentifier="6">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" id="108" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" restorationIdentifier="6" misplaced="YES">
                                 <rect key="frame" x="197" y="184" width="50" height="50"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -144,7 +144,7 @@
                                     <constraint id="196" firstItem="112" firstAttribute="height" constant="50"/>
                                 </constraints>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" id="113" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" restorationIdentifier="9">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" id="113" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" restorationIdentifier="9" misplaced="YES">
                                 <rect key="frame" x="197" y="243" width="50" height="50"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -161,10 +161,10 @@
                                     <rect key="frame" x="277" y="162" width="50" height="50"/>
                                 </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="168" translatesAutoresizingMaskIntoConstraints="NO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="168" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
                                 <rect key="frame" x="72" y="301" width="175" height="50"/>
                                 <color key="backgroundColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
-                                <state key="normal" title="Computers Move">
+                                <state key="normal" title="Computer's Move">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact">
@@ -182,9 +182,10 @@
                                     <constraint id="255" firstItem="168" firstAttribute="height" constant="167"/>
                                     <constraint id="256" firstItem="168" firstAttribute="width" constant="125"/>
                                     <constraint id="271" firstItem="168" firstAttribute="width" constant="175"/>
+                                    <constraint id="284" firstItem="168" firstAttribute="width" constant="175"/>
                                 </constraints>
-                                <variation key="heightClass=compact-widthClass=compact">
-                                    <rect key="frame" x="335" y="46" width="125" height="167"/>
+                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="335" y="115" width="125" height="30"/>
                                     <mask key="constraints">
                                         <exclude reference="193"/>
                                         <include reference="255"/>
@@ -199,6 +200,7 @@
                                         <exclude reference="194"/>
                                         <exclude reference="256"/>
                                         <exclude reference="271"/>
+                                        <exclude reference="284"/>
                                     </mask>
                                 </variation>
                             </button>
@@ -260,6 +262,10 @@
                             <constraint id="274" firstItem="168" firstAttribute="top" secondItem="111" secondAttribute="bottom" constant="8"/>
                             <constraint id="275" firstItem="111" firstAttribute="top" secondItem="106" secondAttribute="bottom" constant="7"/>
                             <constraint id="276" firstItem="168" firstAttribute="top" secondItem="113" secondAttribute="bottom" constant="8"/>
+                            <constraint id="282" firstItem="168" firstAttribute="top" secondItem="112" secondAttribute="bottom" constant="8"/>
+                            <constraint id="283" firstItem="168" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX"/>
+                            <constraint id="285" firstItem="168" firstAttribute="top" secondItem="111" secondAttribute="bottom" constant="8"/>
+                            <constraint id="286" firstItem="168" firstAttribute="top" secondItem="113" secondAttribute="bottom" constant="8"/>
                         </constraints>
                         <variation key="heightClass=compact-widthClass=compact">
                             <mask key="subviews">
@@ -299,6 +305,10 @@
                                 <exclude reference="274"/>
                                 <exclude reference="275"/>
                                 <exclude reference="276"/>
+                                <exclude reference="286"/>
+                                <exclude reference="283"/>
+                                <exclude reference="282"/>
+                                <exclude reference="285"/>
                             </mask>
                         </variation>
                     </view>
@@ -323,6 +333,6 @@
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedScreenMetrics key="destination"/>
-        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>
     </simulatedMetricsContainer>
 </document>
