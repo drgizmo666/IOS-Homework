@@ -102,6 +102,7 @@
     <Compile Include="MasterTableView.designer.cs">
       <DependentUpon>MasterTableView.cs</DependentUpon>
     </Compile>
+    <Compile Include="MyCell.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

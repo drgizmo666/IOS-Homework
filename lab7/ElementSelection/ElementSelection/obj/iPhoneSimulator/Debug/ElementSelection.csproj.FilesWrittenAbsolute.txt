@@ -6,3 +6,11 @@
 /Users/student/github/IOS-Homework/lab7/ElementSelection/ElementSelection/obj/iPhoneSimulator/Debug/actool/partial-info.plist
 /Users/student/github/IOS-Homework/lab7/ElementSelection/ElementSelection/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
 /Users/student/github/IOS-Homework/lab7/ElementSelection/ElementSelection/obj/iPhoneSimulator/Debug/optimized/
+/Users/student/GitHub/IOS-Homework/lab7/ElementSelection/ElementSelection/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/student/GitHub/IOS-Homework/lab7/ElementSelection/ElementSelection/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/student/GitHub/IOS-Homework/lab7/ElementSelection/ElementSelection/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/4-view-5.nib
+/Users/student/GitHub/IOS-Homework/lab7/ElementSelection/ElementSelection/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/student/GitHub/IOS-Homework/lab7/ElementSelection/ElementSelection/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UITableViewController-4.nib
+/Users/student/GitHub/IOS-Homework/lab7/ElementSelection/ElementSelection/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/student/GitHub/IOS-Homework/lab7/ElementSelection/ElementSelection/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/student/GitHub/IOS-Homework/lab7/ElementSelection/ElementSelection/obj/iPhoneSimulator/Debug/optimized/
